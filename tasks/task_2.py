@@ -7,8 +7,10 @@ elif stocking_number < 0:
 else:
     print(0)
 
-# -------------------- №2
+# # -------------------- №2
+#
+# number: int = int(input(":"))
+# result: int = 1 if number > 0 else -1 if number < 0 else 0
+# print(result)
 
-number: int = int(input('Введите целое число:'))
-condition = '1' if number > 0 else '-1'
-print(condition)
+

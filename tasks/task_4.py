@@ -1,6 +1,6 @@
-number_1: int = int(input('Введите первое целое число: '))
-number_2: int = int(input('Введите второе целое число: '))
-number_3: int = int(input('Введите третье целое число: '))
+# number_1: int = int(input('Введите первое целое число: '))
+# number_2: int = int(input('Введите второе целое число: '))
+# number_3: int = int(input('Введите третье целое число: '))
 
 # if number_1 > number_2:
 #     maximum = number_1
@@ -32,3 +32,4 @@ number_3: int = int(input('Введите третье целое число: ')
 Иначе
     Все числа равны
 """
+

@@ -1,16 +1,20 @@
-number: int = int(input(":"))
-number_2: int = int(input(":"))
-a_call: str = input(":")
+number: float = float(input("Введите первое число: "))
+number_2: float = float(input("Введите второе число: "))
+operation: str = input("Введите магическую операцию: ")
 
-if a_call == "Призыв":
+if operation == "Призыв":
     result = number + number_2
-    print('Сумма магических сил чисел:', float(result))
-elif a_call == "Трансформация":
-    result = number + number_2
-    print('Трансформированное число',float(result))
-elif a_call == "Исчезновение":
-    result = number - number
+    print("Сумма магических сил чисел:", result)
+elif operation == "Трансформация":
+    result = number - number_2
+    print("Трансформированное число:", result)
+elif operation == "Объединение":
+    result = number * number_2
+    print("соединит числа,равна произведению чисел", result)
+elif operation == "Исчезновение":
     if number_2 == 0:
-        print("Ошибка: Второе число равно нулю!",)
+        print("Ошибка: Второе число равно нулю!")
     else:
-        print(result)
+        print(number / number_2)
+else:
+    print("Ошибка: Некорректная операция")
