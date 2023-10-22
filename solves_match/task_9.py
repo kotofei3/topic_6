@@ -6,6 +6,6 @@ n: list = [number, number2, line]
 
 match n:
     case _ if any(n):
-        print('Yes')
+        print("Yes")
     case _:
         print("No")
